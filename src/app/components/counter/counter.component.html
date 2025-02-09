@@ -1,3 +1,6 @@
 <div style="margin-top: 50px; text-align: center">
-  <button>Increment</button><button>Decrement</button><button>Reset</button>
+  <h1>Count : {{ $count | async }}</h1>
+  <button (click)="onIncrement()">Increment</button
+  ><button (click)="onDecrement()">Decrement</button
+  ><button (click)="onDecrement()">Reset</button>
 </div>
